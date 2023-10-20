@@ -1,0 +1,69 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700|Lobster");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* General style rules for fonts and colors */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Set the font to Roboto for the body */
+  font-size: 18px;
+  margin: 0;
+  background-color: rgb(0, 0, 0); /* Set the background color to black */
+  color: white; /* Set the text color to white for contrast */
+  display: flex; /* Use flex layout to position elements vertically */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive; /* Use Lobster or your desired vintage font for h1 and h2 */
+  font-weight: normal; /* You can adjust font weight as needed */
+  font-size: 50px;
+  margin-bottom: 0.5em; /* Reduce the margin between h1 and h2 */
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Card */
+.card {
+  margin: 10px 0; /* Adjust the margin to control the space between the images */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card img {
+  width: 225px;
+  height: auto;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+/* Button */
+.scroll-button {
+  margin-top: 0.5em; /* Reduce the margin between h2 and the button */
+}
+
+/* Cards */
+.cards {
+  display: flex;
+}
